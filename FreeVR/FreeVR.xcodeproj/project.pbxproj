@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ABC5241D2F0E9E1600B259B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC524052F0E9E1500B259B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC5240C2F0E9E1500B259B1;
+			remoteInfo = FreeVR;
+		};
+		ABC524272F0E9E1600B259B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC524052F0E9E1500B259B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC5240C2F0E9E1500B259B1;
+			remoteInfo = FreeVR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC5240D2F0E9E1500B259B1 /* FreeVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC5241C2F0E9E1600B259B1 /* FreeVRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeVRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC524262F0E9E1600B259B1 /* FreeVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ABEE925F2F0F469700DEC361 /* Exceptions for "FreeVR" folder in "FreeVR" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ABC5240C2F0E9E1500B259B1 /* FreeVR */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ABC5240F2F0E9E1500B259B1 /* FreeVR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ABEE925F2F0F469700DEC361 /* Exceptions for "FreeVR" folder in "FreeVR" target */,
+			);
+			path = FreeVR;
+			sourceTree = "<group>";
+		};
+		ABC5241F2F0E9E1600B259B1 /* FreeVRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FreeVRTests;
+			sourceTree = "<group>";
+		};
+		ABC524292F0E9E1600B259B1 /* FreeVRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FreeVRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC5240A2F0E9E1500B259B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		ABC524192F0E9E1600B259B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		ABC524232F0E9E1600B259B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC524042F0E9E1500B259B1 = {
+			isa = PBXGroup;
+			children = (
+				ABC5240F2F0E9E1500B259B1 /* FreeVR */,
+				ABC5241F2F0E9E1600B259B1 /* FreeVRTests */,
+				ABC524292F0E9E1600B259B1 /* FreeVRUITests */,
+				ABC5240E2F0E9E1500B259B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC5240E2F0E9E1500B259B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5240D2F0E9E1500B259B1 /* FreeVR.app */,
+				ABC5241C2F0E9E1600B259B1 /* FreeVRTests.xctest */,
+				ABC524262F0E9E1600B259B1 /* FreeVRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC5240C2F0E9E1500B259B1 /* FreeVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC524302F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVR" */;
+			buildPhases = (
+				ABC524092F0E9E1500B259B1 /* Sources */,
+				ABC5240A2F0E9E1500B259B1 /* Frameworks */,
+				ABC5240B2F0E9E1500B259B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABC5240F2F0E9E1500B259B1 /* FreeVR */,
+			);
+			name = FreeVR;
+			productName = FreeVR;
+			productReference = ABC5240D2F0E9E1500B259B1 /* FreeVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC5241B2F0E9E1600B259B1 /* FreeVRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC524332F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVRTests" */;
+			buildPhases = (
+				ABC524182F0E9E1600B259B1 /* Sources */,
+				ABC524192F0E9E1600B259B1 /* Frameworks */,
+				ABC5241A2F0E9E1600B259B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC5241E2F0E9E1600B259B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABC5241F2F0E9E1600B259B1 /* FreeVRTests */,
+			);
+			name = FreeVRTests;
+			productName = FreeVRTests;
+			productReference = ABC5241C2F0E9E1600B259B1 /* FreeVRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC524252F0E9E1600B259B1 /* FreeVRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC524362F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVRUITests" */;
+			buildPhases = (
+				ABC524222F0E9E1600B259B1 /* Sources */,
+				ABC524232F0E9E1600B259B1 /* Frameworks */,
+				ABC524242F0E9E1600B259B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC524282F0E9E1600B259B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABC524292F0E9E1600B259B1 /* FreeVRUITests */,
+			);
+			name = FreeVRUITests;
+			productName = FreeVRUITests;
+			productReference = ABC524262F0E9E1600B259B1 /* FreeVRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC524052F0E9E1500B259B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					ABC5240C2F0E9E1500B259B1 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					ABC5241B2F0E9E1600B259B1 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = ABC5240C2F0E9E1500B259B1;
+					};
+					ABC524252F0E9E1600B259B1 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = ABC5240C2F0E9E1500B259B1;
+					};
+				};
+			};
+			buildConfigurationList = ABC524082F0E9E1500B259B1 /* Build configuration list for PBXProject "FreeVR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC524042F0E9E1500B259B1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = ABC5240E2F0E9E1500B259B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC5240C2F0E9E1500B259B1 /* FreeVR */,
+				ABC5241B2F0E9E1600B259B1 /* FreeVRTests */,
+				ABC524252F0E9E1600B259B1 /* FreeVRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC5240B2F0E9E1500B259B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		ABC5241A2F0E9E1600B259B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		ABC524242F0E9E1600B259B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC524092F0E9E1500B259B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		ABC524182F0E9E1600B259B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		ABC524222F0E9E1600B259B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC5241E2F0E9E1600B259B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC5240C2F0E9E1500B259B1 /* FreeVR */;
+			targetProxy = ABC5241D2F0E9E1600B259B1 /* PBXContainerItemProxy */;
+		};
+		ABC524282F0E9E1600B259B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC5240C2F0E9E1500B259B1 /* FreeVR */;
+			targetProxy = ABC524272F0E9E1600B259B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABC5242E2F0E9E1600B259B1 /* Debug configuration for PBXProject "FreeVR" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABC5242F2F0E9E1600B259B1 /* Release configuration for PBXProject "FreeVR" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ABC524312F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVR" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JN226GVRCM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeVR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for visual yaw drift correction in VR head tracking\n";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABC524322F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVR" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = JN226GVRCM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeVR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for visual yaw drift correction in VR head tracking\n";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABC524342F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVRTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeVR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeVR";
+			};
+			name = Debug;
+		};
+		ABC524352F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVRTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeVR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeVR";
+			};
+			name = Release;
+		};
+		ABC524372F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVRUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FreeVR;
+			};
+			name = Debug;
+		};
+		ABC524382F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVRUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pro.FreeVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FreeVR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC524082F0E9E1500B259B1 /* Build configuration list for PBXProject "FreeVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC5242E2F0E9E1600B259B1 /* Debug configuration for PBXProject "FreeVR" */,
+				ABC5242F2F0E9E1600B259B1 /* Release configuration for PBXProject "FreeVR" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABC524302F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC524312F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVR" */,
+				ABC524322F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVR" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABC524332F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC524342F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVRTests" */,
+				ABC524352F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVRTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABC524362F0E9E1600B259B1 /* Build configuration list for PBXNativeTarget "FreeVRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC524372F0E9E1600B259B1 /* Debug configuration for PBXNativeTarget "FreeVRUITests" */,
+				ABC524382F0E9E1600B259B1 /* Release configuration for PBXNativeTarget "FreeVRUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC524052F0E9E1500B259B1 /* Project object */;
+}
