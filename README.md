@@ -19,6 +19,11 @@ It's an ambitious project, but it's rewarding.As I control all the software, I c
 
 I look foreward to seeing the finished project.
 
+NOTE:
+This is my first time doing anything with GitHub and doing a project of this scale. I apoligise for anyone trying to use any of this.
+
+As for copyright, I couldn't care less what you do with this stuff. It is so custom to me, that it would probally be way easier to fully make your own headset, rather than copy what I have done. Not that anyone will ever see this project anyway.
+
 
 Disclaimer
 The X-Plane to split screen window app is almost entirely coded by AI.
