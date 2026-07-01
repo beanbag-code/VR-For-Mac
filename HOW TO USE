@@ -1,0 +1,49 @@
+So, you decided that you wanted to make one too, first of all, good luck!
+
+As for what makes this work, you need some software and hardware. 
+
+First you will need the FreeVR app. 
+This serves as the bridge between the display. It works by taking a screenshot of the currecnt screen and aplting lens corrections and splits the screen.
+You can use command Q to quit tthe app once it is running. It will need permissions to record screen in privacy and security settings.
+About it, it is basicaly fully vibe coded. I know, I know. 
+But with out AI I would not have been able to complete the project before I would lose intrest. in my head, a nessisary evil.
+I have tested it, and it works fairly well for me.
+
+Once it is running, move it to the VR headset display and put it to fullscreen.
+
+Next thing you need is the VR Track code. 
+What it does is take the serial data coming from the ardrino and IMU. It may still require you to allow camera permissions
+It does this because at first I intended that it would use april tag detection to correct for drift, but after I found there was minimal drift, I cut it to reduce overhead. 
+The code is still there mostly. just commented out. to work the program, connect your ardrino via usb cable, then boot the program up.
+then select the dropdown and select the port that apears. Be sure to click it then hit connect. It should then show the IMU quaterion on the debug window.
+Next before xplane, you need to hit the button that says calabrate. follow the process and when it is done hit return to debug.
+Once you have calabrated, it should, in theory be working.
+You can quit the program using the escape key.
+
+Ardrino
+I used a generic nano and a BNO085 IMU Module. I used this one.
+https://www.amazon.com/Teyleten-Robot-BNO085-Accuracy-Nine-Axis/dp/B0CL26J81F/ref=sr_1_1?crid=2Z73DOX81X51D&dib=eyJ2IjoiMSJ9.XYTU67RiiWAt3REqmDwaVBOdHqIVg2Mxp9YwvkTtMS5gGQ7WlWETakq7fX2UtUEmEP_qy388LsEoGrNpLqu-kEIPuoujrz1Jq8kZXCS2TAcJzL0BS9IJVpzk8k2uQDS2gZYjK4iWpcDfzNuikEYSm9PM3-g5dMImw7U6fKYJDoCYrg_3FWLYV65q_gqEtFKEVP3QxgTCFZSEIeJs9K88ogyLk6Jl0v1_WJ46amKz7Mc.MbueB8BZslSoqAR-5ewQWpCRhH5v70qVX4NqFdIJrhE&dib_tag=se&keywords=VR+IMU&qid=1782944265&sprefix=vr+imu%2Caps%2C301&sr=8-1
+The wiring is quite simple it uses the I2C protocal to work. 
+
+NANO -> IMU
+D9 ->   RST
+D8 ->   INT
+A4 ->   SDA
+A5 ->   SCL
+3.3v -> VCC
+GND ->  GND
+
+I put my components on a proto board.
+https://www.amazon.com/Prototype-Snappable-Arduino-Electronics-Gold-Plated/dp/B08151V9TS?ref_=ast_sto_dp&th=1
+
+XPLANE
+I used X-Plane 12 as my simulator of choice. I do not know if 11 will work.
+To set it up, you must go into network settings and hit the check mark that says use UNPnP for port forwarding, You must allow that.
+It should now talk nicely to the VR Track code.
+
+That should be about all on how this thing works. I'm sure I missed something, but comment any questions you have. I will get them and try to clarify the issue.
+
+It should be noted that this is not going to be the best headset on the market, in fact it will most liekly be nowhere close. 
+The intent was to show it is possible, and possible it is.
+
+Thanks for finding this and I hope you can enjoy whatever you decide to do with it. 
